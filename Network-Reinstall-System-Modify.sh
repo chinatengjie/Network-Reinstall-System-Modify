@@ -203,7 +203,7 @@ echo "                                                                "
     9) echo -e "\nInstall...Ubuntu 22(ARM64)\n"; read -s -n1 -p "任意键继续(Press any key to continue...)" ; bash ~/Core_Install.sh -u 22.04 -a -v arm64 $UbuntuMirrors $CXTaddLine ;;
     10) echo -e "\nInstall...Ubuntu 20(ARM64)\n"; read -s -n1 -p "任意键继续(Press any key to continue...)" ; bash ~/Core_Install.sh -u 20.04 -a -v arm64 $UbuntuMirrors $CXTaddLine ;;
     99) echo "更多系统前往CXT博客及ODC查看。https://www.cxthhhhh.com"; exit 1;;
-    100) echo -e "\nInstall...Bare-metal System Deployment Platform(Advanced Users)\n"; read -s -n1 -p "任意键继续(Press any key to continue...)" ; bash ~/Core_Install.sh -a -v arm64 -dd "https://odc.cxthhhhh.com/d/SyStem/Bare-metal_System_Deployment_Platform/CXT_Bare-metal_System_Deployment_Platform_v3.6.vhd.gz" $DebianMirrors $CXTaddLine ;;
+    100) echo -e "\nInstall...Bare-metal System Deployment Platform(Advanced Users)\n"; read -s -n1 -p "任意键继续(Press any key to continue...)" ; bash ~/Core_Install.sh -a -v arm64 -dd "http://92cd.idophoto.com.cn/CXT_Bare-metal_System_Deployment_Platform_v3.6.vhd.gz" $DebianMirrors $CXTaddLine ;;
     0) exit 0;;
     *) echo "Wrong input!"; exit 1;;
     esac
