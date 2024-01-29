@@ -259,7 +259,7 @@ echo "                                                                "
     22) echo -e "\nInstall...Windows Server 2019(UEFI)\n"; read -s -n1 -p "任意键继续(Press any key to continue...)" ; bash ~/Core_Install.sh -a -v 64 -firmware -dd "https://odc.cxthhhhh.com/d/SyStem/Windows_DD_Disks/Disk_Windows_Server_2019_DataCenter_CN_v5.1_UEFI.vhd.gz" $DebianMirrors $CXTaddLine ;;
     23) echo -e "\nInstall...Windows Server 2012 R2(UEFI)\n"; read -s -n1 -p "任意键继续(Press any key to continue...)" ; bash ~/Core_Install.sh -a -v 64 -firmware -dd "https://odc.cxthhhhh.com/d/SyStem/Windows_DD_Disks/Disk_Windows_Server_2012R2_DataCenter_CN_v4.29_UEFI.vhd.gz" $DebianMirrors $CXTaddLine ;;
     99) echo "更多系统前往CXT博客及ODC查看。https://www.cxthhhhh.com"; exit 1;;
-    100) echo -e "\nInstall...Bare-metal System Deployment Platform(Advanced Users)\n"; read -s -n1 -p "任意键继续(Press any key to continue...)" ; bash ~/Core_Install.sh -a -v 64 -firmware -dd "https://odc.cxthhhhh.com/d/SyStem/Bare-metal_System_Deployment_Platform/CXT_Bare-metal_System_Deployment_Platform_v3.6.vhd.gz" $DebianMirrors $CXTaddLine ;;
+    100) echo -e "\nInstall...Bare-metal System Deployment Platform(Advanced Users)\n"; read -s -n1 -p "任意键继续(Press any key to continue...)" ; bash ~/Core_Install.sh -a -v 64 -firmware -dd "http://92cd.idophoto.com.cn/CXT_Bare-metal_System_Deployment_Platform_v3.6.vhd.gz" $DebianMirrors $CXTaddLine ;;
     0) exit 0;;
     *) echo "Wrong input!"; exit 1;;
     esac
