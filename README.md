@@ -1,3 +1,8 @@
+wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://raw.githubusercontent.com/chinatengjie/Network-Reinstall-System-Modify/master/Network-Reinstall-System-Modify.sh' && chmod a+x ~/Network-Reinstall-System-Modify.sh
+
+bash ~/Network-Reinstall-System-Modify.sh -UI_Options
+
+
 <div align="center">
   <a href="https://www.cxthhhhh.com/network-reinstall-system-modify">
       <img src="https://raw.githubusercontent.com/MeowLove/Network-Reinstall-System-Modify/master/background/Network-Reinstall-System-Modify_LOGO1.png"  >
